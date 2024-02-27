@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta http-equiv="X-DNS-Prefetch-Control" content="on" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="dns-prefetch" href="/" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      window.publicPath = window.resourceBaseUrl || "/";
+    </script>
+    <script>
+      //! umi version: 3.5.41
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script src="/js/sentry@7.53.0.tracing.replay.min.js"></script>
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fingerprintjs2/2.1.5/fingerprint2.min.js"></script>
+    <script src="/js/react.production.min.js" charset="utf-8"></script>
+    <script src="/js/react-dom.production.min.js" charset="utf-8"></script>
+    <script src="/js/eventTrack202303.js" charset="utf-8"></script>
+    <script charset="utf-8">
+      window["trackEvent"] && window["trackEvent"].init("114001");
+    </script>
+    <script src="/js/html2canvas.min.js" async="true"></script>
+    <script src="/js/aes.min.js"></script>
+    <script src="/js/crypto-js.min.js"></script>
+    <script src="/vendors.96f5c8e9.async.js"></script>
+    <script src="/antd.4562d1a5.async.js"></script>
+    <script src="/umi.5fe39fcd.js"></script>
+  </body>
+</html>
